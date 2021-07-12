@@ -96,3 +96,32 @@ top blogs styles here
    font-size: 16px;
     color: #562EFF
 }
+
+
+/*_____________________
+ 
+Latest Courses Style here
+
+_________________*/
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    /* gap dewa ar na dewar difference ache
+     gap dewwa= mane child ke bujay
+     gap na dewa= imediate je class / bas pashapashi je class ache
+    */
+    color: #FFC014;
+
+}
+.fa-star.empty{
+    color: #aeaeae
+}
