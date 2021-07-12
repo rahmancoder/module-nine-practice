@@ -103,6 +103,13 @@ top blogs styles here
 Latest Courses Style here
 
 _________________*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    /* grid-column-gap: 24px; */
+}
+
 
 .course .course-banner img{
     width: 224px;
@@ -111,8 +118,9 @@ _________________*/
 .course-info{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    justify-content: space-evenly;
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
 }
 .fa-star{
     font-size: 12px;
@@ -127,4 +135,11 @@ _________________*/
 }
 .fa-star.empty{
     color: #aeaeae
+}
+
+/*  Extra added styles */
+.course-duration{
+    background-color: #FFE4E8;
+    border:1px solid blue;
+    border-radius: 10px;
 }
