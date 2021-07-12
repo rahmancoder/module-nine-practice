@@ -143,3 +143,80 @@ _________________*/
     border:1px solid blue;
     border-radius: 10px;
 }
+
+
+
+/*  Media  Queryy for Dofferent Device   */
+
+/* Mobile Device  */
+@media only screen and (max-width:688px) {
+    .container{
+        /* debug kore dekhlab width a problem */
+        width: 100%;
+    }
+    .players , .blogs, .courses{
+        background-color: cornsilk;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+
+    .course{
+        margin-bottom: 40px;
+    }
+    .course-info{
+        /* justify-content: space-between; */
+        justify-content: stretch;
+    }
+    .course-duration{
+        margin-left: 10px;
+    }
+
+    /* .courses{
+        display: none;
+    } */
+
+    /*Muri kaaw */ 
+    /*
+    .blogs, .courses{
+        display: none;   }
+    */
+    
+    
+}
+
+
+
+/*  For IPAD/ Tablet Device  */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    
+    .players{
+        background-color: rgb(178, 241, 149);
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .blogs{
+        background-color: rgb(240, 186, 168);
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .courses{
+        background-color: rgba(240, 245, 196, 0.664);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .course{
+        margin-bottom: 40px;
+    }
+    .course-info{
+        /* justify-content: space-between; */
+        justify-content: stretch;
+    }
+    .course-duration{
+        margin-left: 10px;
+    }
+    
+}
