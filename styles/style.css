@@ -1,0 +1,50 @@
+/* font caveat ggoogle  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Overpass:ital,wght@0,600;1,600&display=swap');
+
+
+/* common style and utilities */
+body{
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Overpass', sans-serif; */
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF ;
+    width: 870px;
+    padding: 30px;
+}
+
+
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+}
+
+/* top players styles */
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.player-name{
+  margin-left: 16px;
+
+}
